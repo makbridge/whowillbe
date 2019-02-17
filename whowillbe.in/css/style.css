@@ -16,18 +16,19 @@ h1 {
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-* { 
+* {
   position: relative;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -367,3 +368,250 @@ body {
 		line-height: 3em;
 	}
 }
+ 
+.cat-national-parties{
+}      
+.cat-national-parties h3{
+	text-transform: capitalize;
+	font-size: 23px;
+	color: red;
+}   
+/* Fixed sidenav, full height */
+.sidenav {
+  /* height: 93%; */
+  width: 210px;
+  /*position: fixed;*/
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  /* background-color: #7ebbb1; */
+  opacity: 0.5;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 30px;
+  /* border: 1px solid #9fcdc5; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidenav h3
+{
+	font-size: 18px;
+	/* color: #09401f9e; */
+	color: #ddd;
+	font-weight: 500;
+	text-align: center;
+	/*border-bottom: 1px solid #ddd;*/
+	padding-bottom: 12px;
+	font-family: monospace;
+	/* display: inline-block; */
+	/* text-shadow: -36px 2px 10px white; */
+	text-shadow: 0px 2px 26px white;
+	font-family: cursive;
+}
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  /* color: #818181; */
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-top: 1px solid #ddd;
+  /* color: red; */
+  color: #ffffff;
+  font-family: cursive;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  /* background-color: green; */
+  color: red;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 950px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {
+  	font-size: 13px;
+  	/*padding-top: 20px;}*/
+}
+.cat-pmindia{
+    padding-top: 130px;
+}
+/*.carousel-caption {
+    top: 0;
+    bottom: auto;
+}*/
+.carousel-caption {
+   position: absolute;
+   top:-20px;
+}
+.carousel-caption h3
+{
+	font-size: 18px;
+	/* color: #1a1b1a9e; */
+	color: #fff;
+	font-weight: lighter;
+	text-align: center;
+	/* border-bottom: 1px solid#ddd; */
+	padding-top: 12px;
+	font-family: monospace;
+	display: inline-block;
+	/*text-shadow: 0px 2px 26px white;*/
+	/* background-color: #c5e4eb; */
+	/*background-color: #7E7C76;*/
+	background-color: #f4511e;
+	opacity: 0.5;
+	padding: 6px 10px 6px 10px;
+	/*font-weight: bold;*/
+	font-family: cursive;
+	opacity: 0.6;
+  transition: 0.3s;
+}
+.carousel-caption h3:hover
+ {
+ 	opacity: 1
+ }
+
+.carousel-caption p{
+	padding-top: 70px;
+    color: #2d8061;
+    /*font-weight: 800;*/
+    font-family: cursive;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.carousel-caption p:hover
+ {
+ 	opacity: 1
+ }
+.carousel-caption h4{
+	position: absolute;
+	width: 100%;
+	bottom: -20px;
+	font-weight: 300;
+	/* border: 3px solid #8AC007; */
+	text-align:center;
+	color: #fff;
+	font-size: 14px;
+	background-color: #7E7C76;
+	opacity: 0.5;
+	padding: 10px 20px 12px 20px;
+	font-family: cursive;
+	opacity: 0.6;
+  transition: 0.3s;
+}
+.carousel-caption h4:hover
+ {
+ 	opacity: 1
+ }
+.table-bordered{
+	border: none;
+}
+.table-bordered td, .table-bordered th {
+    /*border: 1px solid #7e9fa9;*/
+    /*border: 1px solid #9cb4bb;*/
+    border: 1px solid #9ab4bb;
+}
+/* The outermost element*/
+.header-wrapper {
+  overflow: hidden;
+  width:400px;
+  height:200px;
+  text-align:center;
+}
+
+.zoominheader {
+  width:400px;
+  height:200px;
+  text-align:center;
+  /*background-image: url(img/flag.jpg);*/
+  background-size: cover;  
+  background-attachment: fixed;
+  background-repeat: repeat;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-animation: zoomin 10s ease-in infinite;
+  animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+/* The innermost element*/
+.zoomoutheader {
+  width:400px;
+  height:200px;
+  text-align:center;
+  background: none;
+  -webkit-animation: zoomout 10s ease-in infinite;
+  animation: zoomout 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+}
+
+
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.9);}
+  100% {transform: scale(1);}
+}
+@keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.9);}
+  100% {transform: scale(1);}
+} /*End of Zoom in Keyframes */
+
+/* Zoom out Keyframes */
+@-webkit-keyframes zoomout {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.70);}
+  100% {transform: scale(1);}
+}
+@keyframes zoomout {
+    0% {transform: scale(1);}
+  50% {transform: scale(0.70);}
+  100% {transform: scale(1);}
+}/*End of Zoom out Keyframes */
+
+/*Style for the text*/
+.text{
+  color:red;
+  font-weight:bold; 
+}
+
