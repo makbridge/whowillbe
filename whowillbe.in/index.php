@@ -348,7 +348,7 @@
               <!-- <span class="carousel-control-next-icon"></span> -->
             </a>
           </div>  
-        
+
         <!-- President Of India -->
       </div>
    
@@ -367,7 +367,13 @@
             </tr>
             <tr style="font-family: cursive;opacity: 0.7;">
                <td style="background-color: #8DBCD0;">AP</td>
-               <td colspan="6" rowspan="8">State Data will be Desplyed Here</td>
+               <td colspan="6" rowspan="8" style="background:transparent url('img/maps/mh_map.png') no-repeat center center/cover; opacity: 0.3;">
+                 <div class="row">
+                   <div class="col-lg-8" style="opacity: 1;">
+                     State Data Will br there.
+                   </div>
+                 </div>
+               </td>
                <td style="background-color: #8DBCD0;">Nagaland</td>
             </tr>
             <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
