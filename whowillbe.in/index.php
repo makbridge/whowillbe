@@ -20,12 +20,34 @@
 <div class="container-fluid">  
   <div class="component">
     <div class="row">
-       <div class="col-sm-12">
-          <h1 style="font-size:5vw; color: #253F58;text-shadow: 6px 6px 8px white;" class="typping">Who Will Be Next PM?</h1>          
+       <div class="col-lg-8" style="padding-right: -50px;">
+          <h1 style="font-size:5vw; color: #253F58;text-shadow: 6px 6px 8px white;" class="typping">Who Will Be Next PM ?</h1>          
+       </div>
+       <div class="col-lg-4" style="padding-left: -55px;padding-right: 180px;padding-top: 30px;">
+         <div id="demo" class="carousel slide" data-ride="carousel">
+         <!-- The slideshow -->
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/question-mark.jpg" alt="Who Will Be">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Nitin-Gadkari.jpg" alt="Nitin-Gadkari">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Rajnath-Singh.jpg" alt="Rajnath-Singh">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Narendra-Modi.jpg" alt="Narendra-Modi">
+            </div>
+            <div class="carousel-item">
+             <img src="img/Rahul-Gandhi.jpg" alt="Rahul-Gandhi">
+            </div>
+         </div>
+       </div>
        </div>
     </div>
     <!-- ######################### Start Nav Structure #############################-->
-    <button class="cn-button" style="background:transparent url('img/ac.png') no-repeat center center/cover; color: red;" id="cn-button">Menu</button>
+    <button class="cn-button" style="background:transparent url('img/Spinning_Ashoka_Chakra.gif') no-repeat center center/cover; color: red;" id="cn-button">Menu</button>
     <div class="cn-wrapper" id="cn-wrapper">
       <ul>
         <li>
@@ -211,151 +233,13 @@
           </div>  
         </div>
 
-        <!-- President Of India -->
-          <div id="demo1" class="carousel slide" data-ride="carousel"style="width: 250px;">
-            <!-- <ul class="carousel-indicators">  
-              <li data-target="#demo1" data-slide-to="0" class="active"></li>
-              <li data-target="#demo1" data-slide-to="1"></li>
-              <li data-target="#demo1" data-slide-to="2"></li>
-              <li data-target="#demo1" data-slide-to="3"></li>
-            </ul>-->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/PM narendra-modi.png" alt="Los Angeles" style="padding-top: 100px">
-                 <div class="carousel-caption">
-                  <p>15th President</p>
-                  <h4>Narendra Modi</h4>
-                  <h3>26 May 2014</h3>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/GettyImages-166292665-e1536846730937.png" alt="Los Angeles" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>14th President</p>
-                  <h4>Manmohan Singh</h4>
-                  <h3>2004 to 2014</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Inder-Kumar-Gujral.png" alt="Chicago" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>13th President</p>
-                  <h4>I. K. Gujral</h4>
-                  <h3>1997 to 1998</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Deve-Gowda.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>12th President</p>
-                  <h4>H. D. Deve Gowda</h4>
-                  <h3>1996 to 1997</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-atal-bihari-vajpayee.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>11th President</p>
-                  <h4>Atal Bihari Vajpayee</h4>
-                  <h3>1996 to 2004</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-P-V-Narsimha-Rao.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>10th President</p>
-                  <h4>P. V. Narasimha Rao</h4>
-                  <h3>1991 to 1996</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Chandrasekhar-Singh.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>9th President</p>
-                  <h4>Chandra Shekhar</h4>
-                  <h3>1990 to 1991</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Vishwanath-Pratap-Singh.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>8th President</p>
-                  <h4>Vishwanath Pratap Singh</h4>
-                  <h3>1989 to 1990</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-rajiv-gandhi.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>7th President</p>
-                  <h4>Rajiv Gandhi</h4>
-                  <h3>1984 1989</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-charan-singh.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>6th President</p>
-                  <h4>Charan Singh</h4>
-                  <h3>1979 to 1980</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Morarji-Desai.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>5th President</p>
-                  <h4>Morarji Desai</h4>
-                  <h3>1977 to 1979</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/indira-gandhi001.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>4th President</p>
-                  <h4>Indira Gandhi</h4>
-                  <h3>1966 to 1984</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-lal-bahadur-shastri.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>3rd President</p>
-                  <h4>Lal Bahadur Shastri</h4>
-                  <h3>1964 to 1966</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-gulzarilal-nanda.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>2nd President</p>
-                  <h4>Gulzarilal Nanda</h4>
-                  <h3>1964 to 1966</h3>
-                </div>   
-              </div>
-              <div class="carousel-item">
-                <img src="img/PM-Jawahar-Lal-Nehru.png" alt="New York" style="padding-top: 100px">
-                <div class="carousel-caption">
-                  <p>1st President</p>
-                  <h4>Jawaharlal Nehru</h4>
-                  <h3>1947 to 1964</h3>
-                </div>   
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#demo1" data-slide="prev"> 
-              <!-- <span class="carousel-control-prev-icon"></span> -->
-            </a>
-            <a class="carousel-control-next" href="#demo1" data-slide="next">
-              <!-- <span class="carousel-control-next-icon"></span> -->
-            </a>
-          </div>  
-
-        <!-- President Of India -->
+        
       </div>
    
       <div class="col-lg-8" style="background-color:none; color: black; padding-top: 130px;">
-        <table class="table table-responsive table-bordered" style="padding-left: 38px;       ">
+        <table class="table table-bordered" style="padding-left: 38px;       ">
           <tbody style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">      
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">  
+            <tr >  
                <td>Jharkhand</td>
                <td>Karnataka</td>
                <td>Kerala</td>    
@@ -365,46 +249,40 @@
                <td>Meghalaya</td>
                <td>Mizoram</td>
             </tr>
-            <tr style="font-family: cursive;opacity: 0.7;">
-               <td style="background-color: #8DBCD0;">AP</td>
-               <td colspan="6" rowspan="8" style="background:transparent url('img/maps/mh_map.png') no-repeat center center/cover; opacity: 0.3;">
-                 <div class="row">
-                   <div class="col-lg-8" style="opacity: 1;">
-                     State Data Will br there.
-                   </div>
-                 </div>
-               </td>
-               <td style="background-color: #8DBCD0;">Nagaland</td>
+            <tr>
+               <td>AP</td>
+               <td colspan="6" rowspan="8" class="whitebg">State Data will be Desplyed Here</td>
+               <td>Nagaland</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>ARP</td>
               <td>Orissa</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>Bihar</td>
               <td>Rajasthan</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>CH</td>
               <td>Sikkim</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>Goa</td>
               <td>Tamil Nadu</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>Gujarat</td>
               <td>Telagana</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>Haryana</td>
               <td>Tripura</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>HP</td>
               <td>Uttaranchal</td>
             </tr>
-            <tr style="font-family: cursive;background-color: #8DBCD0;opacity: 0.7;">
+            <tr >
               <td>JK</td>
               <td>UP</td>
               <td>West Bengal</td>
@@ -422,69 +300,13 @@
         <div class="sidenav">
           <h3>National Parties
           </h3>
-          <button class="dropdown-btn">Bharatiya Janata Party 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">Indian National Congress 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">Nationalist Congress Party 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">Bahujan Samaj Party
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">All India Trinamool Congress
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">Communist Party of India
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
-          <button class="dropdown-btn">Communist Party of India (Marxist)
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-container">
-            <a href="#">Party Goal</a>
-            <a href="#">Mission</a>
-            <a href="#">vision</a>
-            <a href="#">History</a>
-          </div>
+          <a href="http://www.bjp.org/" target="_blank">Bharatiya Janata Party</a>
+          <a href="https://www.inc.in/en" target="_blank">Indian National Congress</a>
+          <a href="https://www.ncp.org.in/" target="_blank">Nationalist Congress Party</a>
+          <a href="http://www.bspindia.org/" target="_blank">Bahujan Samaj Party</a>
+          <a href="http://aitcofficial.org/" target="_blank">All India Trinamool Congress</a>
+          <a href="https://www.communistparty.in/" target="_blank">Communist Party of India</a>
+          <a href="https://cpim.org/" target="_blank">Communist Party of India (Marxist)</a>
         </div>
       </div>      
   </div>         

@@ -615,3 +615,36 @@ body {
   font-weight:bold; 
 }
 
+#fullstate{
+	margin-top:0px;
+	height: 96%;
+	width: 100%;
+}
+
+tr{
+	font-family: cursive;
+	background-color: #8DBCD0;
+	opacity: 0.7;
+}
+
+#fullstate tr td{
+	width: 10%;
+}
+
+.whitebg{
+	background-color: white;
+}
+
+td:hover {
+    color:#ffffff;
+    background-color: #94b1ba;
+}
+
+a{
+	color: black;
+	text-decoration: none !important;
+}
+
+sa:hover{
+    color:#ffffff;
+}
